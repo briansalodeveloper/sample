@@ -1,0 +1,348 @@
+/***** ICONS *****/
+.material-icons {
+    color: white;
+}
+.material-icons.bg-black{
+    background-color: black;
+}
+.material-icons.bg-skyblue{
+    background-color: #2299b7;
+}
+.material-icons.medium{
+    font-size: 28px;
+    border-radius: 20px;
+}
+.material-icons.large{
+    font-size: 50px;
+    border-radius: 50px;
+}
+/* COLORS */
+.navbar-color {
+    background-color: #021d27;
+}
+
+/* NAVBAR */
+.navbar-profile{
+    height:57px;
+    width:54px;
+    border-radius: 50%;
+}
+.nav-link-title{
+    font-size: 1.25em;
+}
+ 
+/* SIDEBAR */
+  
+/* CONTENT */
+  
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 1rem;
+    height: 1rem;
+}
+/* Referral Tab */
+.referral-tab {
+    height:5px;
+    width:100%;
+    background-color: #2299b7;
+    margin-bottom: -3px;
+    border-radius: 5px;
+}
+.income-tab {
+    height:5px;
+    width:50%;
+    background-color: #2299b7;
+    margin-bottom: -3px;
+    border-radius: 5px;
+}
+.tab-bar-referral{
+    margin-left:35%;
+    margin-right:55%;
+}
+.tab-bar-income {
+    margin-left:15%
+}
+.tab-bar-bottom-border{
+    border-bottom:1px solid #2299b7;
+}
+
+/* Referral */
+.referral-border-left {
+    border-left: 2px solid #083745;
+    margin-left: 2%;
+}
+.referral-border-bottom {
+    border-bottom:2px solid #083745;
+}
+.referral-col-first {
+    padding:1%;
+    color:white;
+}
+.referral-col-middle {
+    margin-left:5px;
+    padding:1%;
+    margin-left: 2%;
+    color:white;
+}
+.referral-col-last {
+    padding:1%;
+    margin-left: 2%;
+    color:white;
+}
+.referral-box {
+    margin-bottom: 5px;
+    height:60px;
+    padding-top:20px;
+    border-radius:5px;
+    background-color: #2299b7;
+}
+.referral-box-carousel {
+    background-color: #2299b7; 
+    margin-bottom: 5px; 
+    border-radius:10px; 
+    height:60px;
+    padding-top: 5px;
+}
+.referral-carousel{
+    width:90%;
+    margin-left:2%;
+}
+.referral-total-text {
+    margin-bottom: 5px;
+    height:50px;
+    padding-top:13px;
+    border-radius:5px;
+}
+.referral-divider {
+    height: 50px;
+}
+.referral-carousel-item{
+ margin: auto;
+}
+.referral-avatar{
+    height:57px;
+    width:54px;
+    border-radius: 50%;
+}
+.referral-level1-avatar{
+    height:37px;
+    width:35px;
+    border-radius: 50%;
+}
+/* Referral link */
+.referral-link-input {
+    width:87%; 
+    color:#2299b7; 
+    border: none!important;
+    background-color: #292929;
+}
+.referral-link-btn {
+    margin-left:10px;
+    background-color: #2299b7;
+    border-radius: 10px;
+}
+.income-recent-activity-card{
+    background-color: #072b38;
+    border-radius: 10px;
+    margin:1%;
+    padding:1%;
+}
+.income-profile{
+    width: 40px;
+    border-radius: 50%;
+    height:40px;
+}
+
+/*REFERRAL share link */
+.share-button {
+    position: relative;
+}
+.share-list {
+    position: absolute;
+    top: 100%;
+    left: 0;    
+} 
+.share-list.show {
+    display: block;
+} 
+.share-list:not(.show) {
+    display: none;
+}
+.referral-download-btn{
+    border-radius:20px
+}
+/* Profile */
+.profile-header-text{
+    width: 100%; 
+    margin-top: 0.25rem; 
+    font-size: 1.675em;
+    color: white;
+    font-weight: 550;
+}
+.profile-avatar {
+    height:200px;
+    width:180px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+.profile-divider{
+    height:25px;
+}
+.profile-upload{
+    cursor: pointer;
+    position: relative;
+}
+.profile-upload-btn{
+    border-radius:20px;
+    position: absolute;
+    background-color: #2299b7;
+    color:white;
+}
+.profile-upload-file{
+    opacity:0;
+}
+.profile-input-type input[type]{
+    background-color: #021d27;
+    color:white;
+}
+.profile-btn{
+    background-color: #2299b7;
+    color:white
+}
+.profile-two-fact-auth div{
+    height:20px;
+}
+.profile-two-fact-auth input[type="radio"]{
+    width:20px;
+}
+.profile-two-fact-auth-tel{
+    height:35px;
+    width:100%;
+}
+/* PROFILE EYE PASSWORD */
+.password-container {
+    position: relative;
+  }
+.is-invalid .password-toggle {
+    top: 28%!important;
+}
+.password-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: transparent;
+    color: black; 
+    border: 0;
+    outline: 0;
+    padding: 0;
+    margin-right: 8px;
+}
+.password-toggle i {
+    font-size: 1.2em;
+    color: red;
+}
+/* PROFILE PASSWORD VALIDATION */
+.password-invalid {
+    width: 100%; 
+    margin-top: 0.25rem; 
+    font-size: 0.875em;
+    color: #d32f2f;
+}
+.password-valid {
+    width: 100%; 
+    margin-top: 0.25rem; 
+    font-size: 0.875em;
+    color: #198754;
+}
+/* PROFILE VUE-TEL-INPUT */
+.vti__dropdown-list{
+    background-color: #021d27!important;
+}
+.vti__dropdown-item.highlighted {
+    background-color: #f3f3f3;
+    color: black;
+}
+.vti__dropdown{
+    background-color: white!important;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.vue-tel-input {
+    border-radius: 15px!important;
+}
+.vti__input {
+    border-top-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-radius: 0 15px 15px 0!important;
+}
+/* FOOTER */
+.footer-body{
+    min-height: 74px;
+}
+.safeguard-circle-red{
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    background-color: red;
+}
+.safeguard-circle-red-big{
+    height:28px;
+    width:28px;
+    border-radius: 50%;
+    background-color: red;
+}
+.safeguard-circle-green{
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    background-color: #00b050;
+}
+.safeguard-circle-green-big{
+    height:28px;
+    width:28px;
+    border-radius: 50%;
+    background-color: #00b050;
+}
+.safeguard-tasi-line{
+    background-color:white; 
+    height:30px;
+    width:5px;
+    margin-left:15px;
+}
+.safeguard-tasi-wrapper{
+    background-color:#083745;
+    border-bottom: solid 2px white;
+    margin-top:15px;
+    margin-bottom:15px;
+    padding:10px;
+}
+.safeguard-thead th{
+    text-align: center!important;
+}
+tbody{
+    border-color: white;
+}
+
+.dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter, .dataTables_wrapper .dataTables_info, .dataTables_wrapper .dataTables_processing, .dataTables_wrapper .dataTables_paginate {
+    color: white!important;
+}
+.dataTables_wrapper .dataTables_length select{
+    background-color: white!important;
+}
+.dataTables_wrapper .dataTables_filter input{
+    background-color: white!important;
+    margin-bottom: 10px;
+}
+.safeguard-signal td {
+    text-align: center;
+}
+.safeguard-thead{
+    background-color: #083745;
+}
+.safeguard .even{
+    background-color: #052531;
+}
+.form-control:disabled, .dataTable-input:disabled, .form-control[readonly], [readonly].dataTable-input{
+    border-color: #9e9e9e
+}

@@ -1,0 +1,31 @@
+
+/***** DRAWER *****/
+.bg-light {
+  background-color: #001018!important;
+}
+.drawer-light {
+  border-right-color: #072b38!important;
+}
+.bg-white {
+  background-color: #072b38!important;
+}
+.drawer-light .drawer-menu .nav-link {
+  color: white!important;
+}
+.drawer-light .drawer-menu .drawer-menu-heading {
+  color: white!important;
+}
+
+/***** NAVBAR *****/
+.bg-dark {
+  background-color: #021d27!important;
+}
+
+/***** SIDEBAR *****/
+
+/***** BODY *****/
+
+/**** FOOTER ****/
+.drawer-footer {
+  background-color: #021d27!important;
+}

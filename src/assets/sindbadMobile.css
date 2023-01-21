@@ -1,0 +1,11 @@
+@media only screen and (max-width: 600px) {
+    .card-body {
+      overflow: scroll;
+    }
+    .footer-body{
+        min-height: 20%;
+    }
+    .referral-link-height{
+        height:130px;
+    }
+  }
